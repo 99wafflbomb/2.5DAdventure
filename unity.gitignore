@@ -8,7 +8,7 @@
 !README.md
 !LICENSE
 
-# Whitelisted directories/files
+# Whitelisted directories/files ???
 !/ProjectSettings/
 !/Assets/                # Add Assets folder, but ...
 /Assets/*                # Remove everything under Assets again.
