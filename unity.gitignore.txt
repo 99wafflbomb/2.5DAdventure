@@ -1,0 +1,15 @@
+# Ignore everything.  We'll whitelist what we want to pull in.
+/*
+/*/
+
+# Git meta files
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+
+# Whitelisted directories/files
+!/ProjectSettings/
+!/Assets/                # Add Assets folder, but ...
+/Assets/*                # Remove everything under Assets again.
+!/Assets/Shared/         # Now add back our Shared game folders.
