@@ -1,3 +1,18 @@
+# Ignore everything.  We'll whitelist what we want to pull in.
+/*
+/*/
+
+# Git meta files
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+
+# Whitelisted directories/files
+!/ProjectSettings/
+!/Assets/
+/Assets/*
+!/Assets/Shared/
 
 obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs
 obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
